@@ -8,6 +8,20 @@
 .h4-xl,
 .h4-xxl {
     display: none;
+    /* visibility: hidden */
+}
+
+.container {
+    background-color: fuchsia;
+
+}
+
+.col-md-6 {
+    border: 5px solid black;
+}
+
+.container-fluid {
+    background-color: yellow;
 }
 
 @media (min-width: 576px) {
