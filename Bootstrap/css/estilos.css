@@ -1,0 +1,39 @@
+/* X-Small devices (portrait phones, less than 576px)
+    No media query for `xs` since this is the default in Bootstrap */
+
+@media (min-width: 576px) {
+    .titulo1 {
+        font-size: 1.2em;
+        color: red;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .titulo1 {
+        font-size: 2em;
+        color: green;
+    }
+}
+
+@media (min-width: 992px) {
+    .titulo1 {
+        font-size: 3em;
+        color: pink;
+    }
+}
+
+@media (min-width: 1200px) {
+    .titulo1 {
+        font-size: 4em;
+        color: yellow;
+    }
+}
+
+@media (min-width: 1400px) {
+    .titulo1 {
+        font-size: 5em;
+        color: fuchsia;
+    }
+
+}
