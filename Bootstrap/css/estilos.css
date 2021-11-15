@@ -1,10 +1,24 @@
 /* X-Small devices (portrait phones, less than 576px)
     No media query for `xs` since this is the default in Bootstrap */
 
+
+.h4-sm,
+.h4-md,
+.h4-lg,
+.h4-xl,
+.h4-xxl {
+    display: none;
+    visibility: hidden;
+}
+
 @media (min-width: 576px) {
     .titulo1 {
         font-size: 1.2em;
         color: red;
+    }
+
+    .h4-sm {
+        display: block;
     }
 
 }
@@ -14,12 +28,20 @@
         font-size: 2em;
         color: green;
     }
+
+    .h4-md {
+        display: block;
+    }
 }
 
 @media (min-width: 992px) {
     .titulo1 {
         font-size: 3em;
         color: pink;
+    }
+
+    .h4-lg {
+        display: block;
     }
 }
 
@@ -28,12 +50,20 @@
         font-size: 4em;
         color: yellow;
     }
+
+    .h4-xl {
+        display: block;
+    }
 }
 
 @media (min-width: 1400px) {
     .titulo1 {
         font-size: 5em;
         color: fuchsia;
+    }
+
+    .h4-xxl {
+        display: block;
     }
 
 }
