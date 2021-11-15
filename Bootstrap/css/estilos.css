@@ -8,7 +8,6 @@
 .h4-xl,
 .h4-xxl {
     display: none;
-    visibility: hidden;
 }
 
 @media (min-width: 576px) {
